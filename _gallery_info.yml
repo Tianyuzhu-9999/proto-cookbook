@@ -1,6 +1,13 @@
 thumbnail: thumbnail.png
 tags:
   domains:
-    - sampledomain
+    - meteorology
+    - data-analysis
+    - visualization
+    - 
   packages:
-    - samplepackage
+      - xarray
+      - metpy
+      - cartopy
+      - numpy
+      - scipy

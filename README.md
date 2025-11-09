@@ -2,89 +2,62 @@
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
+This prototype cookbook explores three types of extreme weather events —
+tornado outbreaks, heatwaves, and lake-effect snowstorms — using Python tools such as
+xarray, metpy, cartopy, numpy, and meteorological datasets including ERA5, GFS, and surface observations.
 
+This project demonstrates:
 
+ - Working with reanalysis and model data
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+ - Producing time-series and map-based visualizations
+
+ - Comparing atmospheric processes across different events
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook serves as a foundation for analyzing extreme weather events
+using real meteorological datasets and Python-based tools. By working through
+these examples, I will develop skills in handling reanalysis data, visualizing
+atmospheric variables, and comparing different types of severe weather systems.
+
+By the end of the cookbook, I will have a clear workflow for retrieving,
+processing, and plotting data from sources like ERA5 and GFS—skills that will
+directly support the development of my full group project on extreme weather
+analysis.
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Tianyu Zhu](https://github.com/Tianyuzhu-9999)
 
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
-
-## Running the Notebooks
-
-You can either run the notebook using [Binder](https://binder.projectpythia.org/) or on your local machine.
-
-### Running on Binder
-
-The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://binder.projectpythia.org/), which enables the execution of a
-[Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Cookbooks chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
-and even change the example programs. You’ll see that the code cells
-have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter).
-
-Note, not all Cookbook chapters are executable. If you do not see
-the rocket ship icon, such as on this page, you are not viewing an
-executable book chapter.
+This prototype cookbook is organized into three main analysis sections and two supporting sections.  
+Each section focuses on a different extreme weather event or on the methods used to analyze them.
 
 
-### Running on Your Own Machine
+### Section 1 – Event Overviews
 
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
+This section provides a high-level overview of three extreme weather events examined in the project:
 
-(Replace "cookbook-example" with the title of your cookbooks)
+- **Tornado Outbreak Overview** — April 2011 U.S. tornado case study  
+- **Heatwave Overview** — July 2023 U.S. heatwave event  
+- **Lake-Effect Snow Overview** — November 2022 lake-effect snowstorm  
+Each notebook summarizes event evolution, key
+meteorological variables, and initial observations.
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+### Section 2 – Data & Methods
 
-   ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
-   ```
+This section describes the datasets and analytical methods used in the project, including:
 
-1. Move into the `cookbook-example` directory
-   ```bash
-   cd cookbook-example
-   ```
-1. Create and activate your conda environment from the `environment.yml` file
-   ```bash
-   conda env create -f environment.yml
-   conda activate cookbook-example
-   ```
-1. Move into the `notebooks` directory and start up Jupyterlab
-   ```bash
-   cd notebooks/
-   jupyter lab
-   ```
+- ERA5 reanalysis  
+- GFS model outputs  
+- Satellite imagery  
+- Surface station observations  
+- Python tools for analysis (xarray, metpy, cartopy, numpy)
+
+### Section 3 – Visualization Examples
+
+This section includes example visualizations demonstrating techniques used to analyze extreme weather
+(such as time series, spatial maps, and model comparison plots).

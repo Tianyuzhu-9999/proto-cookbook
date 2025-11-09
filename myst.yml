@@ -3,19 +3,26 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Prototype Project Repo
-  github: https://github.com/projectpythia/cookbook-template
+  title: Extreme Weather Analysis Prototype
+  github: https://github.com/Tianyuzhu-9999/proto-cookbook
   authors:
-    - name: Tianyu
+    - name: Tianyu Zhu
   copyright: '2025'
-  toc:
-    - file: README.md
-    - title: Preamble
-      children:
-        - file: notebooks/how-to-cite.md
-    - title: Introduction
-      children:
-        - file: notebooks/notebook-template.ipynb
-  jupyter:
-      binder:
-        repo: projectpythia/cookbook-template
+toc:
+  - file: README.md
+  - title: Analysis Overview
+    children:
+      - file: notebooks/01_tornado-overview.ipynb
+      - file: notebooks/02_heatwave-overview.ipynb
+      - file: notebooks/03_lake-effect-snow.ipynb
+  - title: Data & Methods
+    children:
+      - file: notebooks/data-sources.md
+      - file: notebooks/methodology.md
+  - title: Visualization Examples
+    children:
+      - file: notebooks/plot-examples.ipynb
+
+jupyter:
+  binder:
+    repo: Tianyuzhu-9999/proto-cookbook

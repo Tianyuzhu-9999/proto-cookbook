@@ -5,3 +5,17 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - numpy
+  - pandas
+  - xarray
+  - matplotlib
+  - scipy
+  - netcdf4
+  - cartopy
+  - metpy
+  - cfgrib
+  - pygrib
+  - eccodes
+  - seaborn
+  - plotly
+  - holoviews

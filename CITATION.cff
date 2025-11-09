@@ -4,9 +4,12 @@ authors:
   # add additional entries for each author -- see https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
   - family-names: Zhu
     given-names: Tianyu
-    orcid: https://orcid.org/0009-0000-2681-5476 # optional
-    website: https://github.com/TianyuZhu-9999 # optional
-    affiliation: University at Albany (State University of New York) # optional
+    orcid: https://orcid.org/0009-0000-2681-5476 
+    website: https://github.com/TianyuZhu-9999 
+    affiliation: University at Albany (State University of New York) 
+
+
+ # not change yet and next time will change this to my group name and group website and project title.
   - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
 title: "Cookbook Template"

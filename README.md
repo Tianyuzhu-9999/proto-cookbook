@@ -44,7 +44,7 @@ This section provides a high-level overview of three extreme weather events exam
 - **Tornado Outbreak Overview** — April 2011 U.S. tornado case study  
 - **Heatwave Overview** — July 2023 U.S. heatwave event  
 - **Lake-Effect Snow Overview** — November 2022 lake-effect snowstorm  
-Each notebook summarizes event evolution, key
+The notebook summarizes event evolution, key
 meteorological variables, and initial observations.
 
 ### Section 2 – Data & Methods
@@ -56,8 +56,3 @@ This section describes the datasets and analytical methods used in the project, 
 - Satellite imagery  
 - Surface station observations  
 - Python tools for analysis (xarray, metpy, cartopy, numpy)
-
-### Section 3 – Visualization Examples
-
-This section includes example visualizations demonstrating techniques used to analyze extreme weather
-(such as time series, spatial maps, and model comparison plots).

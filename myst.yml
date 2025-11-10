@@ -12,17 +12,13 @@ toc:
   - file: README.md
   - title: Analysis Overview
     children:
-      - file: notebooks/01_tornado-overview.ipynb
-      - file: notebooks/02_heatwave-overview.ipynb
-      - file: notebooks/03_lake-effect-snow.ipynb
+      - file: notebooks/extreme_weather_prototype.ipynb
   - title: Data & Methods
     children:
-      - file: notebooks/data-sources.md
-      - file: notebooks/methodology.md
-  - title: Visualization Examples
+      - file: notebooks/Data & Methods.ipynb
+  - title: Conclusion
     children:
-      - file: notebooks/plot-examples.ipynb
-
+      - file: conclusion.md
 jupyter:
   binder:
     repo: Tianyuzhu-9999/proto-cookbook
